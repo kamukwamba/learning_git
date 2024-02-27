@@ -1,0 +1,28 @@
+
+Git Distributed VCS
+1. git --version  = to check the git version
+2. git config --global user.name "user name" = enter user name that other users will use to identify you by
+3. git config --global user.email "enter user email that other users will use to identify you by"
+3. git config --list = check all the settings made to the git installation
+4. git config  --help = enter the command to check what actions can be donw 
+5. git init = initializes an empty git repository
+6. git status = gives list of untracked files
+7. verb .gitignore = creates a file that has a list of files that should be ignored and should not be added to the repository 
+8, Flow chart -> WORKING DIRECTORY > STAGING AREA > REPOSITORY(git repository)
+9. git add -A = adds all files minus those in the gitignore file to the staging area
+10. git reset .name of the file/ reset =  remove files from the staging area
+11. git commit -m = commits or saves the files in the staging area to the repository -m is used to write a comment or message to explain the commit mage
+12. git log = gives the list of commits made 
+13. git clone <url of the foreing repository> "name of the file you want to clone that repository to"
+14.git remote -v == list the information of the current repository
+14.git branch -a  == List all the branches in the repos local and  remotely 
+15. git diff == shows all changes made to the code
+16.git pull origin main == get new copy of code from the remote branch to make sure all the changes made by other developers reflect in our code 
+17. git branch "verb" create a new branch to work on different parts of the same code base
+18.git checkout "branch name" == to start working on that specific branch
+19.git puch -u "name of the branch made"
+20.git branch --merged == gives a list of all the branches that have been merged with
+21.git merge "name of branch" == merges the main branch with all the other branches
+22.git branch -d "branch name" delete branch from local repository"
+23.git push origin --delete t2-divide == delete branch from remote repository
+===TIME STAMP 15:26===
