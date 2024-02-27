@@ -1,3 +1,15 @@
-print("Welocme to the file of filess")
-print("adding new print statement to file")
-print("kAMUKWAMBa IS COOL")
+def divide(a,b):
+    c = a/b
+    return c
+
+def mult(a,b):
+    c = a*b 
+    return c
+
+def add(a,b):
+    c = a+b
+    return c
+
+def sub(a,b):
+    c = a-b
+    return c
